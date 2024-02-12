@@ -995,6 +995,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: NetworkManager
       objectReference: {fileID: 0}
+    - target: {fileID: 4055284153645873957, guid: 28270d717ae40a34996fbc50fdadf453,
+        type: 3}
+      propertyPath: transport
+      value: 
+      objectReference: {fileID: 545921522}
     - target: {fileID: 6531238291163650038, guid: 28270d717ae40a34996fbc50fdadf453,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1050,6 +1055,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28270d717ae40a34996fbc50fdadf453, type: 3}
+--- !u!114 &545921522 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8594025832607786831, guid: 28270d717ae40a34996fbc50fdadf453,
+    type: 3}
+  m_PrefabInstance: {fileID: 545921517}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7424c1070fad4ba2a7a96b02fbeb4bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &584593782
 GameObject:
   m_ObjectHideFlags: 0
@@ -2110,7 +2127,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 133.35
+  m_fontSize: 133.4
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
